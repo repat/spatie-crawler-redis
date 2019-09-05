@@ -1,0 +1,30 @@
+{
+    "name": "repat/spatie-crawler-redis",
+    "description": "Redis CrawlQueue for spatie/crawler",
+    "keywords": ["spatie", "crawler", "redis", "crawlqueue", "predis"],
+    "homepage": "https://repat.de",
+    "license": "MIT",
+    "version" : "0.1",
+    "authors": [
+        {"name": "repat", "email": "repat@repat.de"}
+    ],
+    "require": {
+        "php": ">=7.1",
+        "spatie/crawler": "^4.6",
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repat\\CrawlQueue\\": "src/Repat/CrawlQueue"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spatie\\Crawler\\Test\\": "tests"
+        }
+    }
+}
