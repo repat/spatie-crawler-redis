@@ -105,7 +105,8 @@ class RedisCrawlQueue implements CrawlQueue
         $keys = $this->redis->hkeys(self::PENDING_URLS);
 
         foreach ($keys as $key) {
-            return unserialize($this->redis->hget(self::PENDING_URLS, $key));
+            $crawlUrl = unserialize($this->redis->hget(self::PENDING_URLS, $key));
+            return ($crawlUrl !== false ? $crawlUrl : null);
         }
 
         return null;
