@@ -4,7 +4,7 @@
     "keywords": ["spatie", "crawler", "redis", "crawlqueue", "predis"],
     "homepage": "https://repat.de",
     "license": "MIT",
-    "version" : "0.1",
+    "version" : "0.1.1",
     "authors": [
         {"name": "repat", "email": "repat@repat.de"}
     ],
