@@ -11,6 +11,8 @@
 Create a `Predis\Client` beforehand if you need options, such as selecting a database. If you don't pass a client, a new one without options will be used. Predis assumes `127.0.0.1`, `6379` and `0` as default host, port and database. You can also pass a custom prefix, otherwise `uniqid()` will be used.
 
 ```php
+use Repat\CrawlQueue\RedisCrawlQueue;
+
 // see https://github.com/nrk/predis for options
 $options = [
     'database' => 7,
