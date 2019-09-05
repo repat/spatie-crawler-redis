@@ -52,7 +52,7 @@ vendor/bin/phpunit
 * MIT, see [LICENSE](https://github.com/repat/spatie-crawler-redis/blob/master/LICENSE)
 
 ## Version
-* Version 0.1
+* Version 0.1.1
 
 ## Contact
 #### repat
