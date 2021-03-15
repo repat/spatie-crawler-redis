@@ -4,13 +4,13 @@
     "keywords": ["spatie", "crawler", "redis", "crawlqueue", "predis"],
     "homepage": "https://repat.de",
     "license": "MIT",
-    "version" : "0.1.1",
+    "version" : "0.2",
     "authors": [
         {"name": "repat", "email": "repat@repat.de"}
     ],
     "require": {
         "php": ">=7.1",
-        "spatie/crawler": "^4.6",
+        "spatie/crawler": ">=4.6",
         "predis/predis": "^1.1"
     },
     "require-dev": {
