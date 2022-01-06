@@ -23,13 +23,13 @@ class RedisCrawlQueue implements CrawlQueue
      * Redis Instance
      * @var \Predis\Client
      */
-    private $redis;
+    protected $redis;
 
     /**
      * Prefix for this crawl
      * @var string
      */
-    private $prefix;
+    protected $prefix;
 
     public function __construct(?Client $redis = null, ?string $prefix = null)
     {
